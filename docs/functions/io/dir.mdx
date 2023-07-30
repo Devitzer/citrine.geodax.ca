@@ -1,0 +1,30 @@
+---
+sidebar_position: 3
+---
+
+# io.dir()
+
+Logs output to the console with dir method. Used for logging objects, arrays and whatnot. Supported types to log are: string | boolean | null | number | object (which is questionable but im working on it (im not working on it for a while))
+
+# Usage
+
+```txt title="usage.ces"
+io.dir(...msg)
+```
+
+# Parameters
+
+The parameters of io.dir.
+
+## msg
+
+The type to log, can be several arguements.
+
+# Example
+
+```txt title="example.ces"
+static obj = {
+    hello: "Hello!"
+}
+io.dir(obj, obj.hello)
+```

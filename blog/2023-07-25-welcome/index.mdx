@@ -1,0 +1,66 @@
+---
+slug: introduction_to_blog
+title: Introduction to the CitrineScript Blog
+authors: [devitzer]
+tags: [welcome, introduction, beginning]
+---
+
+As of making this article, CitrineScript isn't actually out yet. But I would still like to introduce you to my programming language!
+
+## Why did I take up such a big project?
+
+This is a good question, considering my last few have been simple NPM packages, and now I am suddenly taking up a whole programming language with a lexer, parser and compiler?
+
+Well, I decided that I needed to scale up my projects, with my basic coding knowledge of JavaScript and barely any TypeScript, I decided that I need to move on to something big, as I like to believe I can learn quick.
+
+So, I made several decisions to try several new things!
+
+## 1. TypeScript and ESM
+
+I decided to use **TypeScript and ESM.** If you know me, you know that TypeScript and ESM are the two last thing's I would want to be stuck working on. So that's what I picked to lex, parse, and compile my language!
+
+And because I decided to use TypeScript and ESM, I also decided that the best runtime that supports this is:
+
+## 2. Deno
+
+**Deno.** If you know anything about developing with TypeScript and ESM *specifically,* is that Deno is the best runtime for both of these. 
+Deno is a fast and secure runtime and I am actually quite starting to enjoy it although will probably only use it for TypeScript projects.
+
+If you would like to know more about Deno, check it out [here](https://deno.land).
+
+PS: I still love node forever, just because of it's simplicity.
+
+## Conclusion
+
+This is all I have for now. Soon, there will be documentation for the two functions I plan to come out with, impressive right!?
+
+## 1. Some notes
+
+I plan to constantly implement new updates for CitrineScript, but as an independent developer which I like it that way, you cannot expect fast updates.
+
+If you would like to know the specific functions I plan to implement first, well there are several. While there are two "functions" there are also some other cool features.
+
+Here is a small snippet of every single feature that CitrineScript will release with.
+
+```txt title="example.ces"
+// IF YOU SEE COMMENTS LIKE THIS, KNOW THAT THEY WILL NOT EXIST IN INITIAL RELEASE
+
+let x = 5
+let x; // Semicolons only needed on expressions like this.
+x = 5 // Let's keep this at 5 for now.
+
+// You can also set constant/static variables
+
+static y = 10
+static y; // This should give an error. Because it is static.
+
+declare print_coordinates(x, y) {
+    io.print("X Coord: ", x, " Y Coord: ", y)
+}
+
+print_coordinates(x, y) // Result: X Coord: 5 Y Coord: 10
+```
+
+A long enough example that shows release features. Or at least the 0.x chain.
+
+That is all I have, I will update you on the development, goodbye!
