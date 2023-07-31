@@ -1,0 +1,9 @@
+{
+    "label": "fs - file system",
+    "position": 5,
+    "link": {
+      "type": "generated-index",
+      "description": "File related commands in CitrineScript!"
+    }
+}
+  

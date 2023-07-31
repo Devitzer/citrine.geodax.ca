@@ -1,0 +1,8 @@
+{
+    "label": "Keywords - let, static, import, etc.",
+    "position": 1,
+    "link": {
+      "type": "generated-index",
+      "description": "Keywords of CitrineScript."
+    }
+}
