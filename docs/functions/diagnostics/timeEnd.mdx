@@ -1,0 +1,31 @@
+---
+sidebar_position: 3
+---
+
+# diagnostics.timeEnd()
+
+Ends an existing time diagnostic, and returns the time like this:
+
+myTest: 1ms
+
+# Usage
+
+```txt title="usage.ces"
+diagnostics.timeEnd("myTest")
+```
+
+# Parameters
+
+The parameters of diagnostics.timeEnd.
+
+## label
+
+The label for the time diagnostic.
+
+# Example
+
+```txt title="example.ces"
+# DISCLAIMER: this does have to be ended, read the next function.
+diagnostic.timeEnd("myTest")
+# Output: "myTest: 1ms"
+```

@@ -1,0 +1,27 @@
+---
+sidebar_position: 6
+---
+
+# else if
+
+Else if is actually a combination of two keywords, [else](./else.mdx) and [if](./if.mdx).
+When the parser sees the combination of the both, it will treat it as a secondary to another if statement, these can be chained on an on.
+Like if else if else if else if pretty much forever.
+If there is just "else" and then "else if", you will get an error.
+
+## Example:
+
+```txt title="example.ces"
+let x = 5
+let y = 5
+
+if x == 6 {
+    io.print("x eqwow 6 :D")
+} else if x == y {
+    io.print("x eqwow y :D")
+} else {
+    io.print("idk what x eqwow :C")
+}
+
+# Output: "x eqwow y :D"
+```

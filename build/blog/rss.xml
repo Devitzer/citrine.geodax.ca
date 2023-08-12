@@ -4,10 +4,21 @@
         <title>CitrineScript Blog</title>
         <link>https://citrine.geodax.ca/blog</link>
         <description>CitrineScript Blog</description>
-        <lastBuildDate>Wed, 26 Jul 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Aug 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Devlog 3. No more Devlog.]]></title>
+            <link>https://citrine.geodax.ca/blog/devlog-3</link>
+            <guid>https://citrine.geodax.ca/blog/devlog-3</guid>
+            <pubDate>Sat, 12 Aug 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[I haven't updated Devlog in a while, because I completely forgot. Why? In the GitHub repo for CitrineScript, all the changelog and development information you need is there. So this blog will no longer be updated.]]></description>
+            <content:encoded><![CDATA[<p>I haven't updated Devlog in a while, because I completely forgot. Why? In the GitHub repo for CitrineScript, all the changelog and development information you need is there. So this blog will no longer be updated.</p>]]></content:encoded>
+            <category>welcome</category>
+            <category>introduction</category>
+            <category>beginning</category>
+        </item>
         <item>
             <title><![CDATA[Devlog 1. Objects]]></title>
             <link>https://citrine.geodax.ca/blog/devlog-1</link>

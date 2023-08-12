@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://citrine.geodax.ca/blog</id>
     <title>CitrineScript Blog</title>
-    <updated>2023-07-26T00:00:00.000Z</updated>
+    <updated>2023-08-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://citrine.geodax.ca/blog"/>
     <subtitle>CitrineScript Blog</subtitle>
     <icon>https://citrine.geodax.ca/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Devlog 3. No more Devlog.]]></title>
+        <id>https://citrine.geodax.ca/blog/devlog-3</id>
+        <link href="https://citrine.geodax.ca/blog/devlog-3"/>
+        <updated>2023-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I haven't updated Devlog in a while, because I completely forgot. Why? In the GitHub repo for CitrineScript, all the changelog and development information you need is there. So this blog will no longer be updated.]]></summary>
+        <content type="html"><![CDATA[<p>I haven't updated Devlog in a while, because I completely forgot. Why? In the GitHub repo for CitrineScript, all the changelog and development information you need is there. So this blog will no longer be updated.</p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+        <category label="beginning" term="beginning"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Devlog 1. Objects]]></title>
         <id>https://citrine.geodax.ca/blog/devlog-1</id>
