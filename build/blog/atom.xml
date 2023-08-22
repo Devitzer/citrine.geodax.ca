@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://obsidian.geodax.ca/blog</id>
+    <title>Obsidian Blog</title>
+    <updated>2023-08-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://obsidian.geodax.ca/blog"/>
+    <subtitle>Obsidian Blog</subtitle>
+    <icon>https://obsidian.geodax.ca/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Blog Is Back!]]></title>
+        <id>https://obsidian.geodax.ca/blog/blog-is-back</id>
+        <link href="https://obsidian.geodax.ca/blog/blog-is-back"/>
+        <updated>2023-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I have brought back the blog!]]></summary>
+        <content type="html"><![CDATA[<p>I have brought back the blog!</p><p>I realised that I was talking about plans and other non update note related stuff in the GitHub releases, and so I'm just gonna say them here, with the relative versions!
+So, I hope you enjoy the new posts to come!</p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="blog" term="blog"/>
+        <category label="back" term="back"/>
+        <category label="blog is back" term="blog is back"/>
+        <category label="blogback" term="blogback"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Devlog 3. No more Devlog.]]></title>
+        <id>https://obsidian.geodax.ca/blog/devlog-3</id>
+        <link href="https://obsidian.geodax.ca/blog/devlog-3"/>
+        <updated>2023-08-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I haven't updated Devlog in a while, because I completely forgot. Why? In the GitHub repo for CitrineScript, all the changelog and development information you need is there. So this blog will no longer be updated.]]></summary>
+        <content type="html"><![CDATA[<p>I haven't updated Devlog in a while, because I completely forgot. Why? In the GitHub repo for CitrineScript, all the changelog and development information you need is there. So this blog will no longer be updated.</p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+        <category label="beginning" term="beginning"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Devlog 1. Objects]]></title>
+        <id>https://obsidian.geodax.ca/blog/devlog-1</id>
+        <link href="https://obsidian.geodax.ca/blog/devlog-1"/>
+        <updated>2023-07-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello! This is the first devlog of CitrineScript! I am Devitzer and today I will be covering what I am working on today, objects.]]></summary>
+        <content type="html"><![CDATA[<p>Hello! This is the first devlog of CitrineScript! I am Devitzer and today I will be covering what I am working on today, <strong>objects.</strong></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="objects">Objects<a href="#objects" class="hash-link" aria-label="Direct link to Objects" title="Direct link to Objects">​</a></h2><p>Today, I am working on Object Literals, which are the curly braces {}
+And so you will be able to do something like { foo: "bar" } and even just { foo } like that.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="maybes">Maybes<a href="#maybes" class="hash-link" aria-label="Direct link to Maybes" title="Direct link to Maybes">​</a></h2><p>I will probably have time to work on native functions, such as print() and if I rush myself a lot, I will be able to make user defined functions and release CitrineScript! Although, even if CitrineScript is done today, I still have to make a CLI to run it, like node for JS. And set some other things to make it compatible with your devices!</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2><p>So that is all I have today, if I do end up working on something other than objects, I will update you. Bye!</p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+        <category label="beginning" term="beginning"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Devlog 2. Runtime CLI]]></title>
+        <id>https://obsidian.geodax.ca/blog/devlog-2</id>
+        <link href="https://obsidian.geodax.ca/blog/devlog-2"/>
+        <updated>2023-07-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello, welcome to Devlog 2! Made in the same day, I have some small updates to make.]]></summary>
+        <content type="html"><![CDATA[<p>Hello, welcome to Devlog 2! Made in the same day, I have some small updates to make.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-runtime-cli">1. Runtime CLI<a href="#1-runtime-cli" class="hash-link" aria-label="Direct link to 1. Runtime CLI" title="Direct link to 1. Runtime CLI">​</a></h2><p>Because of the way my language works, I was able to make a Runtime CLI in about <strong>5 minutes.</strong> so that is already done and ready.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-objects-and-others">2. Objects and Others<a href="#2-objects-and-others" class="hash-link" aria-label="Direct link to 2. Objects and Others" title="Direct link to 2. Objects and Others">​</a></h2><p>I am still working on Objects and the other "Maybes" that I listed in <a href="/blog/devlog-1">Devlog 1</a></p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+        <category label="beginning" term="beginning"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction to the CitrineScript Blog]]></title>
+        <id>https://obsidian.geodax.ca/blog/introduction_to_blog</id>
+        <link href="https://obsidian.geodax.ca/blog/introduction_to_blog"/>
+        <updated>2023-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As of making this article, CitrineScript isn't actually out yet. But I would still like to introduce you to my programming language!]]></summary>
+        <content type="html"><![CDATA[<p>As of making this article, CitrineScript isn't actually out yet. But I would still like to introduce you to my programming language!</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-did-i-take-up-such-a-big-project">Why did I take up such a big project?<a href="#why-did-i-take-up-such-a-big-project" class="hash-link" aria-label="Direct link to Why did I take up such a big project?" title="Direct link to Why did I take up such a big project?">​</a></h2><p>This is a good question, considering my last few have been simple NPM packages, and now I am suddenly taking up a whole programming language with a lexer, parser and compiler?</p><p>Well, I decided that I needed to scale up my projects, with my basic coding knowledge of JavaScript and barely any TypeScript, I decided that I need to move on to something big, as I like to believe I can learn quick.</p><p>So, I made several decisions to try several new things!</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-typescript-and-esm">1. TypeScript and ESM<a href="#1-typescript-and-esm" class="hash-link" aria-label="Direct link to 1. TypeScript and ESM" title="Direct link to 1. TypeScript and ESM">​</a></h2><p>I decided to use <strong>TypeScript and ESM.</strong> If you know me, you know that TypeScript and ESM are the two last thing's I would want to be stuck working on. So that's what I picked to lex, parse, and compile my language!</p><p>And because I decided to use TypeScript and ESM, I also decided that the best runtime that supports this is:</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="2-deno">2. Deno<a href="#2-deno" class="hash-link" aria-label="Direct link to 2. Deno" title="Direct link to 2. Deno">​</a></h2><p><strong>Deno.</strong> If you know anything about developing with TypeScript and ESM <em>specifically,</em> is that Deno is the best runtime for both of these.
+Deno is a fast and secure runtime and I am actually quite starting to enjoy it although will probably only use it for TypeScript projects.</p><p>If you would like to know more about Deno, check it out <a href="https://deno.land" target="_blank" rel="noopener noreferrer">here</a>.</p><p>PS: I still love node forever, just because of it's simplicity.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2><p>This is all I have for now. Soon, there will be documentation for the two functions I plan to come out with, impressive right!?</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="1-some-notes">1. Some notes<a href="#1-some-notes" class="hash-link" aria-label="Direct link to 1. Some notes" title="Direct link to 1. Some notes">​</a></h2><p>I plan to constantly implement new updates for CitrineScript, but as an independent developer which I like it that way, you cannot expect fast updates.</p><p>If you would like to know the specific functions I plan to implement first, well there are several. While there are two "functions" there are also some other cool features.</p><p>Here is a small snippet of every single feature that CitrineScript will release with.</p><div class="language-txt codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_Ktv7">example.ob</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-txt codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">// IF YOU SEE COMMENTS LIKE THIS, KNOW THAT THEY WILL NOT EXIST IN INITIAL RELEASE</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">let x = 5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">let x; // Semicolons only needed on expressions like this.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">x = 5 // Let's keep this at 5 for now.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">// You can also set constant/static variables</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">static y = 10</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">static y; // This should give an error. Because it is static.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">declare print_coordinates(x, y) {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    io.print("X Coord: ", x, " Y Coord: ", y)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">print_coordinates(x, y) // Result: X Coord: 5 Y Coord: 10</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>A long enough example that shows release features. Or at least the 0.x chain.</p><p>That is all I have, I will update you on the development, goodbye!</p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="introduction" term="introduction"/>
+        <category label="beginning" term="beginning"/>
+    </entry>
+</feed>
