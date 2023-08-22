@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CitrineScript',
+  title: 'Obsidian',
   tagline: 'The easy one.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://citrine.geodax.ca',
+  url: 'https://obsidian.geodax.ca',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -64,9 +64,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'CitrineScript',
+        title: 'Obsidian',
         logo: {
-          alt: 'CitrineScript Logo',
+          alt: 'Obsidian Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -97,24 +97,7 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
+            title: 'Main Stuff',
             items: [
               {
                 label: 'Blog',
@@ -127,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CitrineScript, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Obsidian Lang, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,

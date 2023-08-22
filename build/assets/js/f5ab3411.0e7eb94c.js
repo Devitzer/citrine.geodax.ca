@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcitrine_script_documentation=self.webpackChunkcitrine_script_documentation||[]).push([[1274],{1571:t=>{t.exports=JSON.parse('{"permalink":"/blog/tags/blogback","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

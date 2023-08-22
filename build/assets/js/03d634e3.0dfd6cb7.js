@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcitrine_script_documentation=self.webpackChunkcitrine_script_documentation||[]).push([[2638],{4770:t=>{t.exports=JSON.parse('{"label":"back","permalink":"/blog/tags/back","allTagsPath":"/blog/tags","count":1}')}}]);
