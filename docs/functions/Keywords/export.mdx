@@ -1,0 +1,23 @@
+---
+sidebar_position: 11
+---
+
+# export
+
+The export keyword is used to export your files! (kinda does nothing just yet but it still works)
+
+## Example:
+
+```txt title="module.ob"
+static Name = "Jimmy Fartface"
+export declare GreetUser(user) {
+    io.print("Hello, " + user)
+}
+```
+
+What this looks like imported:
+
+```txt title="example.ob"
+import "./module.ob"
+GreetUser(Name) # Output: Hello, Jimmy Fartface
+```

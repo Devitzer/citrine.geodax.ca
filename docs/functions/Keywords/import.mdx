@@ -4,11 +4,20 @@ sidebar_position: 3
 
 # import
 
-The import keyword is used to import built in libraries, and soon, user made ones.
+The import keyword is used to import built in libraries, and user made ones.
 
 ## Example:
 
 ```txt title="example.ob"
 import fs
 fs.readFile("monkey.txt") # output: whatever is in that readFile
+```
+
+## Example with user libraries:
+
+WARNING! Because of the way this works, whether you exported or didn't export a module, if you import it, all variables and functions from the module will be declared.
+
+```txt title="example.ob"
+import "./myModule.ob" # int myInt = 5 export { myInt } <<< file contents
+io.print(myInt) # result: 5
 ```
