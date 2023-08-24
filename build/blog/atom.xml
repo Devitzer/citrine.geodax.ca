@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://obsidian.geodax.ca/blog</id>
     <title>Obsidian Blog</title>
-    <updated>2023-08-21T00:00:00.000Z</updated>
+    <updated>2023-08-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://obsidian.geodax.ca/blog"/>
     <subtitle>Obsidian Blog</subtitle>
     <icon>https://obsidian.geodax.ca/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Devlog 4. Update Periods, Plans For v2.4.0.0]]></title>
+        <id>https://obsidian.geodax.ca/blog/devlog-4</id>
+        <link href="https://obsidian.geodax.ca/blog/devlog-4"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to Devlog 4!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to Devlog 4!
+Here are some information about the updates and plans!</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="guaranteed-updates">Guaranteed Updates<a href="#guaranteed-updates" class="hash-link" aria-label="Direct link to Guaranteed Updates" title="Direct link to Guaranteed Updates">​</a></h2><p>I guarantee that Obsidian v2.4.0.0 will have new math functions.</p><ul><li>Math.floor</li><li>Math.round</li></ul><p>Which are pretty much the basics, and when I feel like Obsidian needs it I will add more.</p><p>REWORK. THE. EXPORT. STATEMENT.</p><p>Technically, the export statement actually does <strong>nothing.</strong>
+Whenever you import a file, like: import "module.ob", what this does it is actually takes all of the variables and functions from the file and declares them in the file that you are importing it in's environment.
+What does that mean?</p><p>This means that whether you exported a variable/function or not, it will be imported anyways.
+So if your module.ob looks like this:</p><div class="language-txt codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_Ktv7">module.ob</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-txt codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">int myInt = 5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">declare myCoolFunction() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    io.print("This is my cool function!")</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">export { myInt }</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>And in the file you import it from:</p><div class="language-txt codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockTitle_Ktv7">main.ob</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-txt codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">import "module.ob"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">io.print(myInt) # this gives 5, as expected</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">myCoolFunction() # this says "This is my cool function!", which was not expected.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><h2 class="anchor anchorWithStickyNavbar_LWe7" id="likely-to-come">Likely To Come<a href="#likely-to-come" class="hash-link" aria-label="Direct link to Likely To Come" title="Direct link to Likely To Come">​</a></h2><p>Rework the if statement.
+Right now, the if statement is not working the way that the rest of the language works. How specifically?
+Well the if test, which looks like this: 1 == 1. It's not working the way that it should. It's a binary expression, but it's not evaluated as one.
+So I need to update the eval_binary_expr command to evaluate the tests properly.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="plans">Plans<a href="#plans" class="hash-link" aria-label="Direct link to Plans" title="Direct link to Plans">​</a></h2><p>First thing's first, I want to make the update periods longer. I have been making updates every couple days to a week around at most.
+I've decided that I'm going to take my time with the updates.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2><p>And that's it for Devlog 4, see ya on the next one. Bye!</p><p>Devitzer, <br>
+Lead Developer @ Obsidian Lang</p>]]></content>
+        <author>
+            <name>Devitzer</name>
+            <uri>https://github.com/Devitzer</uri>
+        </author>
+        <category label="devlog" term="devlog"/>
+        <category label="plans" term="plans"/>
+        <category label="update" term="update"/>
+        <category label="obsidian" term="obsidian"/>
+        <category label="obpl" term="obpl"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Blog Is Back!]]></title>
         <id>https://obsidian.geodax.ca/blog/blog-is-back</id>

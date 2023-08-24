@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcitrine_script_documentation=self.webpackChunkcitrine_script_documentation||[]).push([[4744],{9722:t=>{t.exports=JSON.parse('{"label":"plans","permalink":"/blog/tags/plans","allTagsPath":"/blog/tags","count":1}')}}]);

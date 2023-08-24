@@ -1,0 +1,60 @@
+---
+slug: devlog-4
+title: Devlog 4. Update Periods, Plans For v2.4.0.0
+authors: [devitzer]
+tags: [devlog, plans, update, obsidian, obpl]
+---
+
+Welcome to Devlog 4!
+Here are some information about the updates and plans!
+
+## Guaranteed Updates
+
+I guarantee that Obsidian v2.4.0.0 will have new math functions.
+* Math.floor
+* Math.round
+
+Which are pretty much the basics, and when I feel like Obsidian needs it I will add more.
+
+REWORK. THE. EXPORT. STATEMENT.
+
+Technically, the export statement actually does **nothing.**
+Whenever you import a file, like: import "module.ob", what this does it is actually takes all of the variables and functions from the file and declares them in the file that you are importing it in's environment.
+What does that mean?
+
+This means that whether you exported a variable/function or not, it will be imported anyways.
+So if your module.ob looks like this:
+```txt title="module.ob"
+int myInt = 5
+
+declare myCoolFunction() {
+    io.print("This is my cool function!")
+}
+
+export { myInt }
+```
+And in the file you import it from:
+```txt title="main.ob"
+import "module.ob"
+io.print(myInt) # this gives 5, as expected
+myCoolFunction() # this says "This is my cool function!", which was not expected.
+```
+
+## Likely To Come
+
+Rework the if statement.
+Right now, the if statement is not working the way that the rest of the language works. How specifically?
+Well the if test, which looks like this: 1 == 1. It's not working the way that it should. It's a binary expression, but it's not evaluated as one.
+So I need to update the eval_binary_expr command to evaluate the tests properly.
+
+## Plans
+
+First thing's first, I want to make the update periods longer. I have been making updates every couple days to a week around at most.
+I've decided that I'm going to take my time with the updates.
+
+## Conclusion
+
+And that's it for Devlog 4, see ya on the next one. Bye!
+
+Devitzer, <br />
+Lead Developer @ Obsidian Lang
